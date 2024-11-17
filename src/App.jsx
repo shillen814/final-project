@@ -33,7 +33,7 @@ function App() {
                 <div> <a href="https://example.com">React Application</a> </div>
             </aside>
         </div>
-        <footer>Footer</footer>
+        <footer>Thanks for stopping by.</footer>
     </div>
     </>
   )
