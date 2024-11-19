@@ -5,10 +5,12 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom"; //use as an html tag
 import HomePage from "./HomePage";
 import Resume from "./Resume";
+import Coffee from "./Coffee";
 
 const router = createBrowserRouter([
   { path: "/", element: <HomePage /> },
   { path: "/resume", element: <Resume /> },
+  { path: "/coffee", element: <Coffee /> },
 ]);
 
 function App() {

@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
-export default function Resume() {
+export default function Coffee() {
   return (
     <div class="container">
       <header>
-        <h1>Resume</h1>
+        <h1>Coffee in Ohio</h1>
       </header>
       <div class="content-wrapper">
         <main>

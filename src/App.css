@@ -1,65 +1,71 @@
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #94e0eb;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #94e0eb;
 }
 
 .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-header, footer, main, .sidebar {
-    padding: 20px;
-    color: white;
+header,
+footer,
+main,
+.sidebar {
+  padding: 20px;
+  color: white;
 }
 
 header {
-    background: rgb(27, 143, 151);
+  background: rgb(27, 143, 151);
 }
 
 main {
-    background: rgb(27, 143, 151);
+  background: rgb(27, 143, 151);
 }
 
 .sidebar {
-    background: rgb(27, 143, 151);
+  background: rgb(27, 143, 151);
 }
 
 footer {
-    background:rgb(27, 143, 151);
+  background: rgb(27, 143, 151);
 }
 
 /* Flexbox */
 .content-wrapper {
-    display: flex;
-    gap: 20px;
-    flex-direction: row;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
 }
 
 main {
-    flex: 3
+  flex: 3;
 }
 .sidebar {
-    flex: 1
+  flex: 1;
 }
 
-header, footer {
-    display: flex;
-    justify-content: center;
+header,
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
-    .content-wrapper {
-        flex-direction: column;
-    }
+  .content-wrapper {
+    flex-direction: column;
+  }
 }
 
 .container {
-    padding: 20px;
+  padding: 20px;
 }
-header, footer, main {
-    margin-bottom: 20px;
+header,
+footer,
+main {
+  margin-bottom: 20px;
 }
