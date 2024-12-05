@@ -1,27 +1,23 @@
 import { Link } from "react-router-dom";
 
-export default function Coffee() {
+export default function Places() {
   return (
     <div class="container">
       <header>
-        <h1>Coffee in Ohio</h1>
+        <h1>Places I want to Travel</h1>
       </header>
       <div class="content-wrapper">
         <main>
-          <h3>
-            Candy Cloud drink picture on left and CouchLand Coffee House drink
-            picture on right
-          </h3>
-          <img
-            src="/candy-cloud-drink-picture.jpg"
-            class="image"
-            alt="Candy Cloud drink picture"
-          />
-          <img
-            src="/couchland-coffee-house-drink-picture.jpg"
-            class="image"
-            alt="CouchLand Coffee House drink picture"
-          />
+          <div>• England</div>
+          <div>• Ireland</div>
+          <div>• Iceland</div>
+          <div>• Denmark</div>
+          <div>• Germany</div>
+          <div>• Thailand</div>
+          <div>• Japan</div>
+          <div>• France</div>
+          <div>• Italy</div>
+          <div>• Scotland</div>
         </main>
         <aside class="sidebar">
           <div>

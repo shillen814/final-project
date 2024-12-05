@@ -1,27 +1,17 @@
 import { Link } from "react-router-dom";
 
-export default function Coffee() {
+export default function Skills() {
   return (
     <div class="container">
       <header>
-        <h1>Coffee in Ohio</h1>
+        <h1>Skills</h1>
       </header>
       <div class="content-wrapper">
         <main>
-          <h3>
-            Candy Cloud drink picture on left and CouchLand Coffee House drink
-            picture on right
-          </h3>
-          <img
-            src="/candy-cloud-drink-picture.jpg"
-            class="image"
-            alt="Candy Cloud drink picture"
-          />
-          <img
-            src="/couchland-coffee-house-drink-picture.jpg"
-            class="image"
-            alt="CouchLand Coffee House drink picture"
-          />
+          <div>• ABB FlexPendant</div>
+          <div>• Java</div>
+          <div>• SQL Server</div>
+          <div>• FANUC Robot Teach Pendant</div>
         </main>
         <aside class="sidebar">
           <div>
